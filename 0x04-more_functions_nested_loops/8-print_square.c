@@ -2,7 +2,7 @@
 
 /**
  * print_square - Function that prints square
- * @size: width and length
+ * @size: size of both width and length
  * Return: square made of '#'
  */
 
