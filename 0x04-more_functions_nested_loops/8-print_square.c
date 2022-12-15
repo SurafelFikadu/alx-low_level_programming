@@ -23,4 +23,6 @@ for (ro = 2; ro <= size; ro++)
 _putchar('#');
 }
 _putchar('\n');
-}}}
+}
+}
+}
