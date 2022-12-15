@@ -18,11 +18,9 @@ else
 for (co = 1; co <= size; co++)
 {
 _putchar('#')
-for (ro = 0; ro <= size; ro++)
+for (ro = 2; ro <= size; ro++)
 {
 _putchar('#');
 }
 _putchar('\n');
-}
-}
-}
+}}}
