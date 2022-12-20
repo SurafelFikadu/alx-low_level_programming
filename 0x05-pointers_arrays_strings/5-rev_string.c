@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
- * rev_string - selam selam endet nachu
- * @s: hey
+ * rev_string - reverse a string
+ * @s: parameter s
  */
 
 void rev_string(char *s);
