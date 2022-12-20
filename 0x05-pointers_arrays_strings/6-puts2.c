@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * puts2 - puts2 function
@@ -17,5 +16,6 @@ if (i % 2 == 0)
 _putchar(str[i]);
 }
 i++;
+}
 _putchar('\n');
 }
