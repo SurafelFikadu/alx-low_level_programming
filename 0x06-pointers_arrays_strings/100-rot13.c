@@ -27,6 +27,7 @@ char rot13key[52] = {'N', 'O', 'p', 'Q', 'R', 'S',
 'x', 'y', 'z', 'a', 'b', 'c',
 'd', 'e', 'f', 'g', 'h', 'i',
 'j', 'k', 'l', 'm'};
+
 while (str[indx1])
 {
 for (indx2 = 0; indx2 < 52; indx2++)
@@ -37,7 +38,9 @@ str[indx1] = rot13key[indx2];
 break;
 }
 }
+
 indx1++;
 }
+
 return (str);
 }
