@@ -5,7 +5,7 @@
  * @haystack: main str to do examine
  * @needle: searched in haystack
  * Return: return 0.
- */
+ **/
 
 char *_strstr(char *haystack, char *needle)
 {
@@ -16,7 +16,7 @@ char *_strstr(char *haystack, char *needle)
 		str1 = haystack; /*values*/
 		str2 = needle;
 
-		/*star while*/
+		/*Star WHILE*/
 		while (*haystack != '\0' && *str2 != '\0' && *haystack == *str2)
 		{
 			haystack++;
