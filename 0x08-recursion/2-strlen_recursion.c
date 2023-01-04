@@ -9,9 +9,11 @@
 
 int _strlen_recursion(char *s)
 {
-	int n;
+	int n = 0;
 
-	n = _strlen_recursion("Corbin Coleman");
-	printf("%d\n", n);
-	return (0);
+	if (*s)
+	{
+		n++;
+		n += _strlen_recursion(s + 1);
+	}
 }
