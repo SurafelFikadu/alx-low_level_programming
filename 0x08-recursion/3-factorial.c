@@ -9,7 +9,6 @@
  *         If n < 0 - 1 to indicate an error.
  *
  */
-
 int factorial(int n)
 {
 	int result = n;
