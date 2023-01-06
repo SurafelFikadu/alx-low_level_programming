@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
+int _sqrt(int, int);
+
 /**
  * _sqrt_recursion - a function that returns the natural
  * @n: If n does not have a natural square root, the function should return -1
