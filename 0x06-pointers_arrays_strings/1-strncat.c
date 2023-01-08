@@ -6,7 +6,7 @@
  * @dest: The string to be appended up on.
  * @src: The string to be appended to dest.
  *
- * _strncat: Concatenates two strings
+ * Return: Concatenates two strings
  */
 
 char *_strncat(char *dest, char *src, int n)
