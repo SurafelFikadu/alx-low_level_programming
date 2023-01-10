@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
+
 /**
  * _strlen - count array
  * @s: array of elements
@@ -57,7 +60,7 @@ char *_strdup(char *str)
 
 	size = _strlen(str) + 1;
 
-	dest = (char *) malloc(size *sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 
 	if (dst == 0)
 	{
