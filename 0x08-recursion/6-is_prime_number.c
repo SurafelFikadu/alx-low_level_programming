@@ -11,23 +11,38 @@ int check_prime(int, int)
 
 int is_prime_number(int n)
 {
-	return (check_prime(n, 1));
+	if (n <= 1)
+	{
+		return (0);
+	}
+	else
+	{
+		return (helperFunction(n, 2));
+	}
 }
 
 /**
- * check_prime - it check prime numbers
- * @n: number
- * @i: iterator
- * Return: a 1 or 0
+ * helperFunction - it check prime numbers
+ * @nun: number being checked
+ * @i: possible factor of the number.
+ * Return: 0 if not prime, 1 if prime.
  */
 
-int check_prime(int n, int i)
+int helperFunction(int num, int i)
 {
-	if (n <= 1)
-		return (0);
-	if (n % i == 0 && i > 1)
-		return (0);
-	if ((n / i) < i)
+	if (i < num)
+	{
+		if (num % 1 == 0)
+		{
+			return (0);
+		}
+		else
+		{
+			return (helperFunction(num, i + 1));
+		}
+	}
+	else
+	{
 		return (1);
-	return (check_prime(n, i + 1));
+	}
 }
