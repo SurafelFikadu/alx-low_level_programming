@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -24,7 +23,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	total = _atoi(argv[1]); /*convert str to int*/
+	total = atoi(argv[1]); /*convert str to int*/
 
 	if (total <= 0)
 	{
