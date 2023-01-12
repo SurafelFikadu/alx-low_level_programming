@@ -1,11 +1,11 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stddef.h>
+
 /**
  * malloc_checked - array for prints a string
  * @b: number of memory
- * Result: void
+ * Return: void
  */
+
 void *malloc_checked(unsigned int b)
 {
 void *p;
@@ -15,5 +15,6 @@ if (p == NULL)
 {
 exit(98);
 }
+
 return (p);
 }
