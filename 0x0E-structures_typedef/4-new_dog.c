@@ -7,7 +7,7 @@
  * @age: The age of the dog.
  * @owner: The owner of the dog.
  *
- * Return: The new struct dog.
+ * Return: NULL if fail.
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
