@@ -20,23 +20,23 @@ void times_table(void)
 			{
 				if (b == 0)
 				{
-					_putchar ('0');
+					putchar('0');
 				}
 				if (b != 0)
 				{
-					_putchar(' ');
-					_putchar((c % 10) + '0');
+					putchar(' ');
+					putchar((c % 10) + '0');
 				}
 				if (b < 9)
 				{
-					_putchar(',');
-					_putchar(' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
 			else
 			{
-				_putchar ((c / 10) + '0');
-				_putchar ((c % 10) + '0');
+				putchar ((c / 10) + '0');
+				putchar ((c % 10) + '0');
 				if (b < 9)
 				{
 					_putchar(',');
@@ -44,6 +44,6 @@ void times_table(void)
 				}
 			}
 		}
-		_putchar ('\n');
+		putchar ('\n');
 	}
 }
