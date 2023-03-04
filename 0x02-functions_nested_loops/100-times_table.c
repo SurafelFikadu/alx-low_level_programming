@@ -1,5 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * print_times_table - print twelve times table.
+ * @n: the times
+ * Return: Always 0.
+ */
 void print_times_table(int n)
 {
 	int a;
@@ -17,7 +22,7 @@ void print_times_table(int n)
 					putchar(n + '0');
 					putchar(',');
 					putchar(' ');
-				} else if(b != 0)
+				} else if (b != 0)
 				{
 					putchar(' ');
 					putchar(' ');
