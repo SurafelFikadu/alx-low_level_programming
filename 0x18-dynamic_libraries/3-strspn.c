@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strspn - prints the consecutive character of s1 that are in s2.
  * @s: source string

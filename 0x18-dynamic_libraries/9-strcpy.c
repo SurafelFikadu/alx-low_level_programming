@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcpy - copier el contenido de uno a otra varible
  * @dest: This is destiny

@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _islower - Short description, single line
  * @c: contain value to be compared

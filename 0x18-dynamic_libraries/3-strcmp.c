@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strcmp - Comares pointers to two strings.
  * @s1: A pointers to the first string to be compared.

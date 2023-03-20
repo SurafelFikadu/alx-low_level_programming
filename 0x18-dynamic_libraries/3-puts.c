@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _puts -> this a function that puts
  * @str: a param to _puts function
